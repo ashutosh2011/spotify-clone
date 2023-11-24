@@ -29,8 +29,8 @@ export const Sidebar: React.FC<SidebarProps> = ({ children }) => {
         icon: BiSearch,
         href: "/search",
       },
-    ],
-    []
+    ],  
+    [pathname]
   );
 
   return (
